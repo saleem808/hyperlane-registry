@@ -3958,6 +3958,25 @@ kalychain:
   protocol: ethereum
   rpcUrls:
     - http: https://rpc.kalychain.io/rpc
+kasplextestnet:
+  blockExplorers:
+    - apiUrl: https://explorer.testnet.kasplextest.xyz/api
+      family: blockscout
+      name: Kasplex Testnet Explorer
+      url: https://explorer.testnet.kasplextest.xyz/
+  chainId: 167012
+  displayName: Kasplex Testnet
+  domainId: 167012
+  isTestnet: true
+  name: kasplextestnet
+  nativeToken:
+    decimals: 18
+    name: Kaspa
+    symbol: KAS
+  protocol: ethereum
+  rpcUrls:
+    - http: https://rpc.kasplextest.xyz
+  technicalStack: other
 katana:
   blockExplorers:
     - apiUrl: https://explorer.katanarpc.com/api
