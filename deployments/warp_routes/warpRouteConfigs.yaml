@@ -10262,6 +10262,25 @@ tUSD/eclipsemainnet-ethereum:
       name: Eclipse Turbo USD
       standard: EvmHypCollateral
       symbol: tUSD
+tZEAL/bsctestnet:
+  tokens:
+    - addressOrDenom: "0xB6F08394a2f570C5a98F4D5a787ec263Ddfad2de"
+      chainName: kasplextestnet
+      collateralAddressOrDenom: "0xD6411bc52c8CbD192477233F2DB211cB96bc3504"
+      connections:
+        - token: ethereum|bsctestnet|0x85c91B38bd5E3952f9B97748eeA87De8c2d3D864
+      decimals: 18
+      name: test ZEAL
+      standard: EvmHypCollateral
+      symbol: tZEAL
+    - addressOrDenom: "0x85c91B38bd5E3952f9B97748eeA87De8c2d3D864"
+      chainName: bsctestnet
+      connections:
+        - token: ethereum|kasplextestnet|0xB6F08394a2f570C5a98F4D5a787ec263Ddfad2de
+      decimals: 18
+      name: test ZEAL
+      standard: EvmHypSynthetic
+      symbol: tZEAL
 weETHs/eclipsemainnet-ethereum:
   tokens:
     - addressOrDenom: 7Zx4wU1QAw98MfvnPFqRh1oyumek7G5VAX6TKB3U1tcn
