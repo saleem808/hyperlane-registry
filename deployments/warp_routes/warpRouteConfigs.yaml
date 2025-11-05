@@ -2860,6 +2860,25 @@ JUP/starknet:
       name: Jupiter
       standard: StarknetHypSynthetic
       symbol: JUP
+KFC/bsctestnet:
+  tokens:
+    - addressOrDenom: "0x69eE87Aaef133A34ACDabb54366C26c7eF3F03FF"
+      chainName: kasplextestnet
+      collateralAddressOrDenom: "0xf87e587AB945F7B111329a6ace6dc497D34f098B"
+      connections:
+        - token: ethereum|bsctestnet|0x18601007442a7273d4795e7FcfFecA6e74149Db0
+      decimals: 18
+      name: Kaspa Finance
+      standard: EvmHypCollateral
+      symbol: KFC
+    - addressOrDenom: "0x18601007442a7273d4795e7FcfFecA6e74149Db0"
+      chainName: bsctestnet
+      connections:
+        - token: ethereum|kasplextestnet|0x69eE87Aaef133A34ACDabb54366C26c7eF3F03FF
+      decimals: 18
+      name: Kaspa Finance
+      standard: EvmHypSynthetic
+      symbol: KFC
 KING/coti-ethereum:
   tokens:
     - addressOrDenom: "0x5CF4ce6Be17CaB6d86d724804e2f1f5040205594"
