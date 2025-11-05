@@ -3611,8 +3611,8 @@ igratestnet:
     - http: https://caravel.igralabs.com:8545
   technicalStack: other
   transactionOverrides:
-    maxFeePerGas: 2000000000
-    maxPriorityFeePerGas: 1000000000
+    maxFeePerGas: 200000000000
+    maxPriorityFeePerGas: 1000000000000
 immutablezkevmmainnet:
   blockExplorers:
     - apiUrl: https://explorer.immutable.com/api
