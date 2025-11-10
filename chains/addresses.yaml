@@ -2051,9 +2051,9 @@ hyperliquidevmtestnet:
   validatorAnnounce: "0x086E902d2f99BcCEAa28B31747eC6Dc5fd43B1bE"
 igratestnet:
   domainRoutingIsmFactory: "0xb1918b12b1c654df4f06583a530e9a4bf1479c5b"
-  interchainGasPaymaster: "0x13e5035850112b8ecbc0b736e1781722c5ae76c4"
+  interchainGasPaymaster: "0x84d24b7f707db8e01fcdcdc013e978deb1042bba"
   interchainSecurityModule: "0x1816eff8e940edabb7aa0f629b8cb826e2ded32b"
-  mailbox: "0x5510d3f4d1d5c8c8cb564f786324ec9026c32087"
+  mailbox: "0xc2011c2e268f6b6a7aac07a27852d6332a9136f6"
   merkleTreeHook: "0xcf3e0dfdc060157e79485cd688e7f807000f9373"
   proxyAdmin: "0x95fa5f9359cbc6c7c5d8e74152e1dd2bc0f5b673"
   staticAggregationHookFactory: "0x2e1e18c99a2e14c518cc751137fe1d855d2b38ce"
