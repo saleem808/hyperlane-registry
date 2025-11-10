@@ -2051,8 +2051,6 @@ hyperliquidevmtestnet:
   validatorAnnounce: "0x086E902d2f99BcCEAa28B31747eC6Dc5fd43B1bE"
 igratestnet:
   domainRoutingIsmFactory: "0xb1918b12b1c654df4f06583a530e9a4bf1479c5b"
-  interchainGasPaymaster: "0x84d24b7f707db8e01fcdcdc013e978deb1042bba"
-  interchainSecurityModule: "0x1816eff8e940edabb7aa0f629b8cb826e2ded32b"
   mailbox: "0xc2011c2e268f6b6a7aac07a27852d6332a9136f6"
   merkleTreeHook: "0xcf3e0dfdc060157e79485cd688e7f807000f9373"
   proxyAdmin: "0x95fa5f9359cbc6c7c5d8e74152e1dd2bc0f5b673"
@@ -2062,7 +2060,6 @@ igratestnet:
   staticMerkleRootWeightedMultisigIsmFactory: "0x551409420b99fa9c9f5672540fa0bc2805560d38"
   staticMessageIdMultisigIsmFactory: "0x4d65e553d98a5554cefb5f8909c24f135ea5c0be"
   staticMessageIdWeightedMultisigIsmFactory: "0x0edb941af94c4aeebfef368e633a0aaf1161d372"
-  storageGasOracle: "0xa2397c416e0188733bf96f8ed7f87f2526d3b221"
   testRecipient: "0x0bdc1a840fed09491889bc6d0df39af69466ea05"
   validatorAnnounce: "0xdf63001e2e91c92da564ee6178f13976c06c2775"
 immutablezkevmmainnet:
