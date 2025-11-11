@@ -2051,6 +2051,7 @@ hyperliquidevmtestnet:
   validatorAnnounce: "0x086E902d2f99BcCEAa28B31747eC6Dc5fd43B1bE"
 igratestnet:
   domainRoutingIsmFactory: "0xb1918b12b1c654df4f06583a530e9a4bf1479c5b"
+  interchainAccountRouter: "0x0000000000000000000000000000000000000000"
   mailbox: "0xc2011c2e268f6b6a7aac07a27852d6332a9136f6"
   merkleTreeHook: "0xcf3e0dfdc060157e79485cd688e7f807000f9373"
   proxyAdmin: "0x95fa5f9359cbc6c7c5d8e74152e1dd2bc0f5b673"
