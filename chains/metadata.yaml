@@ -774,9 +774,23 @@ basecamptestnet:
   rpcUrls:
     - http: https://rpc.basecamp.t.raas.gelato.cloud
 basesepolia:
+  blockExplorers:
+    - apiKey: R8CVTG7HDJYD5JDV2GSD5TGQH3J2KJDSSY
+      apiUrl: https://api-sepolia.basescan.org/api
+      family: etherscan
+      name: BaseScan
+      url: https://sepolia.basescan.org
+  blocks:
+    confirmations: 1
+    estimateBlockTime: 3
+    reorgPeriod: 1
   chainId: 84532
+  deployer:
+    name: Abacus Works
+    url: https://www.hyperlane.xyz
   displayName: Base Sepolia
   domainId: 84532
+  gasCurrencyCoinGeckoId: ethereum
   isTestnet: true
   name: basesepolia
   nativeToken:
@@ -785,8 +799,8 @@ basesepolia:
     symbol: ETH
   protocol: ethereum
   rpcUrls:
-    - http: https://base-sepolia.drpc.org
-  technicalStack: opstack
+    - http: https://sepolia.base.org
+    - http: https://base-sepolia-rpc.publicnode.com
 bepolia:
   availability:
     reasons:
