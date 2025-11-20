@@ -7468,6 +7468,25 @@ USDT/arbitrum-ethereum-optimism-polygon-prom:
       name: Tether USD
       standard: EvmHypSynthetic
       symbol: USDT
+USDT/basesepolia:
+  tokens:
+    - addressOrDenom: "0xf5601981dd5230762f935A2ac3B843e9918115AB"
+      chainName: basesepolia
+      connections:
+        - token: ethereum|sepolia|0x152Adf802fe91e66758f8449cc0b4FDEd3387bBE
+      decimals: 6
+      name: USD Coin
+      standard: EvmHypSynthetic
+      symbol: USDC
+    - addressOrDenom: "0x152Adf802fe91e66758f8449cc0b4FDEd3387bBE"
+      chainName: sepolia
+      collateralAddressOrDenom: "0x67257dbeA6b062c67c2AED888d74e3C5a32DFe97"
+      connections:
+        - token: ethereum|basesepolia|0xf5601981dd5230762f935A2ac3B843e9918115AB
+      decimals: 6
+      name: USD Coin
+      standard: EvmHypCollateral
+      symbol: USDC
 USDT/bsc-polygon-prom:
   tokens:
     - addressOrDenom: "0x74e19D0c1828be422dDCd367a6ADa8CA7003d1a9"
