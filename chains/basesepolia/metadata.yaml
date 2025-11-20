@@ -6,7 +6,7 @@ blockExplorers:
     name: BaseScan
     url: https://sepolia.basescan.org
 blocks:
-  confirmations: 1
+  confirmations: 5
   estimateBlockTime: 3
   reorgPeriod: 1
 chainId: 84532
@@ -25,4 +25,6 @@ nativeToken:
 protocol: ethereum
 rpcUrls:
   - http: https://sepolia.base.org
+  - http: https://base-sepolia.gateway.tenderly.co
+  - http: https://base-sepolia.drpc.org
   - http: https://base-sepolia-rpc.publicnode.com
