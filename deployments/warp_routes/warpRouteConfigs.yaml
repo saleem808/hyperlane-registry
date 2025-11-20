@@ -6241,6 +6241,25 @@ USDC/incentiv:
       name: USD Coin
       standard: EvmHypCollateral
       symbol: USDC
+USDC/kasplex-ethsepolia:
+  tokens:
+    - addressOrDenom: "0x0F807089C22cEDEcf44933c019BCCE46628CC916"
+      chainName: kasplextestnet
+      collateralAddressOrDenom: "0x7b225c27d66949D4f5541f118F7B948b0fc2aB51"
+      connections:
+        - token: ethereum|sepolia|0x7DFe6641371F1C21Ce997a2A0C90A5122E3Abac6
+      decimals: 6
+      name: USD Coin
+      standard: EvmHypCollateral
+      symbol: USDC
+    - addressOrDenom: "0x7DFe6641371F1C21Ce997a2A0C90A5122E3Abac6"
+      chainName: sepolia
+      connections:
+        - token: ethereum|kasplextestnet|0x0F807089C22cEDEcf44933c019BCCE46628CC916
+      decimals: 6
+      name: USD Coin
+      standard: EvmHypSynthetic
+      symbol: USDC
 USDC/kasplex-sepolia:
   tokens:
     - addressOrDenom: "0xc4Ba6A7Ed01025cBB624C1b1761027914A82EAD9"
