@@ -7835,6 +7835,25 @@ USDT/incentiv:
       name: Tether USD
       standard: EvmHypSynthetic
       symbol: USDT
+USDT/kasplex-basesepolia:
+  tokens:
+    - addressOrDenom: "0x35985666e8784b49d1377F0e5a925A5cA18F56AC"
+      chainName: kasplextestnet
+      collateralAddressOrDenom: "0x58Dc3C68b533c800cB0667Eef052f4E67a0E5cBe"
+      connections:
+        - token: ethereum|basesepolia|0x8C3109Fc7D247Df0AEc2e3620b38B0EB1Ce99AbD
+      decimals: 18
+      name: USDT
+      standard: EvmHypCollateral
+      symbol: USDT
+    - addressOrDenom: "0x8C3109Fc7D247Df0AEc2e3620b38B0EB1Ce99AbD"
+      chainName: basesepolia
+      connections:
+        - token: ethereum|kasplextestnet|0x35985666e8784b49d1377F0e5a925A5cA18F56AC
+      decimals: 18
+      name: USDT
+      standard: EvmHypSynthetic
+      symbol: USDT
 USDT/kasplex-sepolia:
   tokens:
     - addressOrDenom: "0x261774bA5794de56eE163fd96C1900bf9484687B"
