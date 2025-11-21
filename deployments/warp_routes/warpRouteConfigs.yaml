@@ -7955,6 +7955,25 @@ USDT/matchain:
       name: Tether USD
       standard: EvmHypSynthetic
       symbol: USDT
+USDT/sepoliatest-igratest:
+  tokens:
+    - addressOrDenom: "0xaf27F006C81fdE2D876282Cd6Cb370338d73B246"
+      chainName: igratestnet
+      connections:
+        - token: ethereum|sepolia|0xD9BdA395724b008510974253B17DE84Ea2ccFFC9
+      decimals: 18
+      name: USDT
+      standard: EvmHypSynthetic
+      symbol: USDT
+    - addressOrDenom: "0xD9BdA395724b008510974253B17DE84Ea2ccFFC9"
+      chainName: sepolia
+      collateralAddressOrDenom: "0xe443273F4ed0752B1140AE26fB052461b1f1aAbC"
+      connections:
+        - token: ethereum|igratestnet|0xaf27F006C81fdE2D876282Cd6Cb370338d73B246
+      decimals: 18
+      name: USDT
+      standard: EvmHypCollateral
+      symbol: USDT
 USDT/solanamainnet-sonicsvm:
   tokens:
     - addressOrDenom: CKrNt2y1e2H9728mHRVYyF2owy9eKreepRKpTMj2j8JG
