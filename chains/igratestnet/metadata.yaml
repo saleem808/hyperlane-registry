@@ -3,6 +3,10 @@ blockExplorers:
     family: blockscout
     name: Igra testnet explorer
     url: https://explorer.caravel.igralabs.com/
+blocks:
+  confirmations: 5
+  estimateBlockTime: 3
+  reorgPeriod: 1
 chainId: 19416
 displayName: Igra Testnet
 domainId: 19416
