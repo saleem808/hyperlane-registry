@@ -6151,6 +6151,25 @@ USDC/ethereum-viction:
       name: USDC
       standard: EvmHypSynthetic
       symbol: USDC
+USDC/igratest-basesepoliatest:
+  tokens:
+    - addressOrDenom: "0xb734A7EfE1a631AFB5149df2c5f4F76513Bc7e38"
+      chainName: igratestnet
+      connections:
+        - token: ethereum|basesepolia|0x4c9498Bf72f19C632237E33D6ACA2ee7f434718D
+      decimals: 18
+      name: USDC
+      standard: EvmHypSynthetic
+      symbol: USDC
+    - addressOrDenom: "0x4c9498Bf72f19C632237E33D6ACA2ee7f434718D"
+      chainName: basesepolia
+      collateralAddressOrDenom: "0x9c30A5755dcC3578f08D799B8Fb7E462A4AA8Ea3"
+      connections:
+        - token: ethereum|igratestnet|0xb734A7EfE1a631AFB5149df2c5f4F76513Bc7e38
+      decimals: 18
+      name: USDC
+      standard: EvmHypCollateral
+      symbol: USDC
 USDC/igratest-sepolia:
   tokens:
     - addressOrDenom: "0x2a96B7c846cA843381a8b86a52C0817EDf4A4Fad"
