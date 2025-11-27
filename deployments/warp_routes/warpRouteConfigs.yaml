@@ -7620,6 +7620,25 @@ USDT/basesepolia-igratest:
       name: USDT
       standard: EvmHypCollateral
       symbol: USDT
+USDT/bsc-kasplex:
+  tokens:
+    - addressOrDenom: "0xBbC4a4Ab915E04a833aefa872A6d19eCac372134"
+      chainName: kasplex
+      connections:
+        - token: ethereum|bsc|0xbb9F2Dc93C00e818eECb4A12B661fd2c9817E301
+      decimals: 18
+      name: Tether USD
+      standard: EvmHypSynthetic
+      symbol: USDT
+    - addressOrDenom: "0xbb9F2Dc93C00e818eECb4A12B661fd2c9817E301"
+      chainName: bsc
+      collateralAddressOrDenom: "0x55d398326f99059fF775485246999027B3197955"
+      connections:
+        - token: ethereum|kasplex|0xBbC4a4Ab915E04a833aefa872A6d19eCac372134
+      decimals: 18
+      name: Tether USD
+      standard: EvmHypCollateral
+      symbol: USDT
 USDT/bsc-polygon-prom:
   tokens:
     - addressOrDenom: "0x74e19D0c1828be422dDCd367a6ADa8CA7003d1a9"
