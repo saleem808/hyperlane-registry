@@ -137,6 +137,7 @@ BNB/bsc-kalychain:
       connections:
         - token: ethereum|kalychain|0x0e2318b62a096AC68ad2D7F37592CBf0cA9c4Ddb
       decimals: 18
+      logoURI: /deployments/warp_routes/BNB/logo.svg
       name: BNB
       standard: EvmHypNative
       symbol: BNB
@@ -145,6 +146,7 @@ BNB/bsc-kalychain:
       connections:
         - token: ethereum|bsc|0x8d0e034611B691683377d2fC9958122a30F7DAab
       decimals: 18
+      logoURI: /deployments/warp_routes/BNB/logo.svg
       name: BNB
       standard: EvmHypSynthetic
       symbol: BNB
@@ -492,6 +494,7 @@ DAI/arbitrum-bsc-kalychain-polygon:
         - token: ethereum|kalychain|0x6E92CAC380F7A7B86f4163fad0df2F277B16Edc6
         - token: ethereum|polygon|0x1E71a8d870F0C491d4fCC965A59493b8B7564949
       decimals: 18
+      logoURI: /deployments/warp_routes/DAI/logo.svg
       name: Dai Stablecoin
       standard: EvmHypCollateral
       symbol: DAI
@@ -504,6 +507,7 @@ DAI/arbitrum-bsc-kalychain-polygon:
         - token: ethereum|kalychain|0x6E92CAC380F7A7B86f4163fad0df2F277B16Edc6
         - token: ethereum|polygon|0x1E71a8d870F0C491d4fCC965A59493b8B7564949
       decimals: 18
+      logoURI: /deployments/warp_routes/DAI/logo.svg
       name: Dai Stablecoin
       standard: EvmHypCollateral
       symbol: DAI
@@ -514,6 +518,7 @@ DAI/arbitrum-bsc-kalychain-polygon:
         - token: ethereum|bsc|0x7379A18963039eA1284050b585f422e8156c9eC0
         - token: ethereum|polygon|0x1E71a8d870F0C491d4fCC965A59493b8B7564949
       decimals: 18
+      logoURI: /deployments/warp_routes/DAI/logo.svg
       name: Dai Stablecoin
       standard: EvmHypSynthetic
       symbol: DAI
@@ -526,6 +531,7 @@ DAI/arbitrum-bsc-kalychain-polygon:
         - token: ethereum|bsc|0x7379A18963039eA1284050b585f422e8156c9eC0
         - token: ethereum|kalychain|0x6E92CAC380F7A7B86f4163fad0df2F277B16Edc6
       decimals: 18
+      logoURI: /deployments/warp_routes/DAI/logo.svg
       name: Dai Stablecoin
       standard: EvmHypCollateral
       symbol: DAI
@@ -1201,6 +1207,7 @@ ETH/bsc-kasplex:
       connections:
         - token: ethereum|bsc|0x96111Fb8219B3374b640a5392faBef57aE4F11Cd
       decimals: 18
+      logoURI: /deployments/warp_routes/ETH/logo.svg
       name: Ethereum Token
       standard: EvmHypSynthetic
       symbol: ETH
@@ -1210,6 +1217,7 @@ ETH/bsc-kasplex:
       connections:
         - token: ethereum|kasplex|0xFe85e2621944a77Da14aD3Fe4414899aE56AC81F
       decimals: 18
+      logoURI: /deployments/warp_routes/ETH/logo.svg
       name: Ethereum Token
       standard: EvmHypCollateral
       symbol: ETH
@@ -1346,6 +1354,7 @@ ETH/sepolia-starknetsepolia:
       connections:
         - token: ethereum|starknetsepolia|0x01665b7726bba364f9ef9ba0bee66acfda07a8ad95e2c93d8e88a53d78d7e477
       decimals: 18
+      logoURI: /deployments/warp_routes/ETH/logo.svg
       name: Ether
       standard: EvmHypNative
       symbol: ETH
@@ -1354,6 +1363,7 @@ ETH/sepolia-starknetsepolia:
       connections:
         - token: ethereum|sepolia|0x83C7a7d489826F92bDFBcc5DD861Fd0D913f85c6
       decimals: 18
+      logoURI: /deployments/warp_routes/ETH/logo.svg
       name: Ether
       standard: StarknetHypSynthetic
       symbol: ETH
@@ -2948,6 +2958,7 @@ KLC/arbitrum-bsc-kalychain-polygon:
         - token: ethereum|kalychain|0x8A1ABbB167b149F2493C8141091028fD812Da6E4
         - token: ethereum|polygon|0x285C14145EB75A1918B48f93E126139ea1a0f294
       decimals: 18
+      logoURI: /deployments/warp_routes/KLC/logo.svg
       name: KalyCoin
       standard: EvmHypSynthetic
       symbol: KLC
@@ -2958,6 +2969,7 @@ KLC/arbitrum-bsc-kalychain-polygon:
         - token: ethereum|kalychain|0x8A1ABbB167b149F2493C8141091028fD812Da6E4
         - token: ethereum|polygon|0x285C14145EB75A1918B48f93E126139ea1a0f294
       decimals: 18
+      logoURI: /deployments/warp_routes/KLC/logo.svg
       name: KalyCoin
       standard: EvmHypSynthetic
       symbol: KLC
@@ -2969,6 +2981,7 @@ KLC/arbitrum-bsc-kalychain-polygon:
         - token: ethereum|bsc|0x02CF1778c07584D92b610E0C03fA285DfD00c354
         - token: ethereum|polygon|0x285C14145EB75A1918B48f93E126139ea1a0f294
       decimals: 18
+      logoURI: /deployments/warp_routes/KLC/logo.svg
       name: KalyCoin
       standard: EvmHypNative
       symbol: KLC
@@ -2979,6 +2992,7 @@ KLC/arbitrum-bsc-kalychain-polygon:
         - token: ethereum|bsc|0x02CF1778c07584D92b610E0C03fA285DfD00c354
         - token: ethereum|kalychain|0x8A1ABbB167b149F2493C8141091028fD812Da6E4
       decimals: 18
+      logoURI: /deployments/warp_routes/KLC/logo.svg
       name: KalyCoin
       standard: EvmHypSynthetic
       symbol: KLC
@@ -3794,6 +3808,7 @@ POL/kalychain-polygon:
       connections:
         - token: ethereum|polygon|0x0a6364152EA7a487C697a36Eb2522f48bC62fB4c
       decimals: 18
+      logoURI: /deployments/warp_routes/POL/logo.svg
       name: Polygon Ecosystem Token
       standard: EvmHypSynthetic
       symbol: POL
@@ -3802,6 +3817,7 @@ POL/kalychain-polygon:
       connections:
         - token: ethereum|kalychain|0x706C9a63d7c8b7Aaf85DDCca52654645f470E8Ac
       decimals: 18
+      logoURI: /deployments/warp_routes/POL/logo.svg
       name: Polygon Ecosystem Token
       standard: EvmHypNative
       symbol: POL
@@ -5641,6 +5657,7 @@ USDC/arbitrum-base-ethereum-lisk-optimism-polygon-zeronetwork:
         - token: ethereum|lisk|0x0FC41a92F526A8CD22060A4052e156502D6B9db0
         - token: ethereum|zeronetwork|0xbb967d98313EDF91751651C0E66ef8A8B7BeD9e1
       decimals: 6
+      logoURI: /deployments/warp_routes/USDC/logo.svg
       name: USD Coin
       standard: EvmHypCollateral
       symbol: USDC
@@ -5652,6 +5669,7 @@ USDC/arbitrum-base-ethereum-lisk-optimism-polygon-zeronetwork:
         - token: ethereum|lisk|0x0FC41a92F526A8CD22060A4052e156502D6B9db0
         - token: ethereum|zeronetwork|0xbb967d98313EDF91751651C0E66ef8A8B7BeD9e1
       decimals: 6
+      logoURI: /deployments/warp_routes/USDC/logo.svg
       name: USD Coin
       standard: EvmHypCollateral
       symbol: USDC
@@ -5663,6 +5681,7 @@ USDC/arbitrum-base-ethereum-lisk-optimism-polygon-zeronetwork:
         - token: ethereum|lisk|0x0FC41a92F526A8CD22060A4052e156502D6B9db0
         - token: ethereum|zeronetwork|0xbb967d98313EDF91751651C0E66ef8A8B7BeD9e1
       decimals: 6
+      logoURI: /deployments/warp_routes/USDC/logo.svg
       name: USD Coin
       standard: EvmHypCollateral
       symbol: USDC
@@ -5676,6 +5695,7 @@ USDC/arbitrum-base-ethereum-lisk-optimism-polygon-zeronetwork:
         - token: ethereum|polygon|0xb805ee88eE76EcE03ba503A2634344804a0Ea59A
         - token: ethereum|zeronetwork|0xbb967d98313EDF91751651C0E66ef8A8B7BeD9e1
       decimals: 6
+      logoURI: /deployments/warp_routes/USDC/logo.svg
       name: USD Coin
       standard: EvmHypSynthetic
       symbol: USDC
@@ -5687,6 +5707,7 @@ USDC/arbitrum-base-ethereum-lisk-optimism-polygon-zeronetwork:
         - token: ethereum|lisk|0x0FC41a92F526A8CD22060A4052e156502D6B9db0
         - token: ethereum|zeronetwork|0xbb967d98313EDF91751651C0E66ef8A8B7BeD9e1
       decimals: 6
+      logoURI: /deployments/warp_routes/USDC/logo.svg
       name: USD Coin
       standard: EvmHypCollateral
       symbol: USDC
@@ -5698,6 +5719,7 @@ USDC/arbitrum-base-ethereum-lisk-optimism-polygon-zeronetwork:
         - token: ethereum|lisk|0x0FC41a92F526A8CD22060A4052e156502D6B9db0
         - token: ethereum|zeronetwork|0xbb967d98313EDF91751651C0E66ef8A8B7BeD9e1
       decimals: 6
+      logoURI: /deployments/warp_routes/USDC/logo.svg
       name: USD Coin
       standard: EvmHypCollateral
       symbol: USDC
@@ -5713,6 +5735,7 @@ USDC/arbitrum-base-ethereum-lisk-optimism-polygon-zeronetwork:
         - token: ethereum|optimism|0xcA11d580faaE3E6993aA230f437079ac21f3078a
         - token: ethereum|polygon|0xb805ee88eE76EcE03ba503A2634344804a0Ea59A
       decimals: 6
+      logoURI: /deployments/warp_routes/USDC/logo.svg
       name: USD Coin
       standard: EvmHypCollateral
       symbol: USDC
@@ -5726,6 +5749,7 @@ USDC/arbitrum-bsc-kalychain-polygon:
         - token: ethereum|kalychain|0x9cAb0c396cF0F4325913f2269a0b72BD4d46E3A9
         - token: ethereum|polygon|0xB3dF48224FA257D55e01342592f9A24cefc2628e
       decimals: 6
+      logoURI: /deployments/warp_routes/USDC/logo.svg
       name: USD Coin
       standard: EvmHypCollateral
       symbol: USDC
@@ -5737,6 +5761,7 @@ USDC/arbitrum-bsc-kalychain-polygon:
         - token: ethereum|kalychain|0x9cAb0c396cF0F4325913f2269a0b72BD4d46E3A9
         - token: ethereum|polygon|0xB3dF48224FA257D55e01342592f9A24cefc2628e
       decimals: 6
+      logoURI: /deployments/warp_routes/USDC/logo.svg
       name: USD Coin
       standard: EvmHypCollateral
       symbol: USDC
@@ -5747,6 +5772,7 @@ USDC/arbitrum-bsc-kalychain-polygon:
         - token: ethereum|bsc|0x3d7d707Df6390adB61e0Ec3eA91A8FC20E519dd0
         - token: ethereum|polygon|0xB3dF48224FA257D55e01342592f9A24cefc2628e
       decimals: 6
+      logoURI: /deployments/warp_routes/USDC/logo.svg
       name: USD Coin
       standard: EvmHypSynthetic
       symbol: USDC
@@ -5758,6 +5784,7 @@ USDC/arbitrum-bsc-kalychain-polygon:
         - token: ethereum|bsc|0x3d7d707Df6390adB61e0Ec3eA91A8FC20E519dd0
         - token: ethereum|kalychain|0x9cAb0c396cF0F4325913f2269a0b72BD4d46E3A9
       decimals: 6
+      logoURI: /deployments/warp_routes/USDC/logo.svg
       name: USD Coin
       standard: EvmHypCollateral
       symbol: USDC
@@ -5899,6 +5926,7 @@ USDC/bsc-kasplex:
       connections:
         - token: ethereum|bsc|0xe04012Ae5f6b1550E20aB63bE29807003e7a4Cd7
       decimals: 18
+      logoURI: /deployments/warp_routes/USDC/logo.svg
       name: USD Coin
       standard: EvmHypSynthetic
       symbol: USDC
@@ -5908,6 +5936,7 @@ USDC/bsc-kasplex:
       connections:
         - token: ethereum|kasplex|0x001cfbd182c74107B70bfcbbCD709E1d73cde0f2
       decimals: 18
+      logoURI: /deployments/warp_routes/USDC/logo.svg
       name: USD Coin
       standard: EvmHypCollateral
       symbol: USDC
@@ -6196,6 +6225,7 @@ USDC/igratest-basesepoliatest:
       connections:
         - token: ethereum|basesepolia|0x4c9498Bf72f19C632237E33D6ACA2ee7f434718D
       decimals: 18
+      logoURI: /deployments/warp_routes/USDC/logo.svg
       name: USDC
       standard: EvmHypSynthetic
       symbol: USDC
@@ -6205,6 +6235,7 @@ USDC/igratest-basesepoliatest:
       connections:
         - token: ethereum|igratestnet|0xb734A7EfE1a631AFB5149df2c5f4F76513Bc7e38
       decimals: 18
+      logoURI: /deployments/warp_routes/USDC/logo.svg
       name: USDC
       standard: EvmHypCollateral
       symbol: USDC
@@ -6215,6 +6246,7 @@ USDC/igratest-sepolia:
       connections:
         - token: ethereum|sepolia|0x296Bff5A5c97B9a8243C612Dd9347b39818aA0ef
       decimals: 18
+      logoURI: /deployments/warp_routes/USDC/logo.svg
       name: USDC
       standard: EvmHypSynthetic
       symbol: USDC
@@ -6224,6 +6256,7 @@ USDC/igratest-sepolia:
       connections:
         - token: ethereum|igratestnet|0x2a96B7c846cA843381a8b86a52C0817EDf4A4Fad
       decimals: 18
+      logoURI: /deployments/warp_routes/USDC/logo.svg
       name: USDC
       standard: EvmHypCollateral
       symbol: USDC
@@ -6325,6 +6358,7 @@ USDC/kasplex-ethsepolia:
       connections:
         - token: ethereum|sepolia|0x7DFe6641371F1C21Ce997a2A0C90A5122E3Abac6
       decimals: 6
+      logoURI: /deployments/warp_routes/USDC/logo.svg
       name: USD Coin
       standard: EvmHypCollateral
       symbol: USDC
@@ -6333,6 +6367,7 @@ USDC/kasplex-ethsepolia:
       connections:
         - token: ethereum|kasplextestnet|0x0F807089C22cEDEcf44933c019BCCE46628CC916
       decimals: 6
+      logoURI: /deployments/warp_routes/USDC/logo.svg
       name: USD Coin
       standard: EvmHypSynthetic
       symbol: USDC
@@ -6344,6 +6379,7 @@ USDC/kasplex-sepolia:
       connections:
         - token: ethereum|basesepolia|0xa4d5C0851301bbF19dFfd97fC58C1Ff7ab27Aea8
       decimals: 6
+      logoURI: /deployments/warp_routes/USDC/logo.svg
       name: USD Coin
       standard: EvmHypCollateral
       symbol: USDC
@@ -6352,6 +6388,7 @@ USDC/kasplex-sepolia:
       connections:
         - token: ethereum|kasplextestnet|0xc4Ba6A7Ed01025cBB624C1b1761027914A82EAD9
       decimals: 6
+      logoURI: /deployments/warp_routes/USDC/logo.svg
       name: USD Coin
       standard: EvmHypSynthetic
       symbol: USDC
@@ -7215,6 +7252,7 @@ USDCSTAGE/arbitrum-base-ethereum-ink-optimism-solanamainnet-superseed:
       connections:
         - token: ethereum|superseed|0xf728C884De5275a608dEC222dACd0f2BF2E23AB6
       decimals: 6
+      logoURI: /deployments/warp_routes/USDCSTAGE/logo.svg
       name: USD Coin
       standard: EvmHypCollateral
       symbol: USDCSTAGE
@@ -7224,6 +7262,7 @@ USDCSTAGE/arbitrum-base-ethereum-ink-optimism-solanamainnet-superseed:
       connections:
         - token: ethereum|superseed|0xf728C884De5275a608dEC222dACd0f2BF2E23AB6
       decimals: 6
+      logoURI: /deployments/warp_routes/USDCSTAGE/logo.svg
       name: USD Coin
       standard: EvmHypCollateral
       symbol: USDCSTAGE
@@ -7233,6 +7272,7 @@ USDCSTAGE/arbitrum-base-ethereum-ink-optimism-solanamainnet-superseed:
       connections:
         - token: ethereum|superseed|0xf728C884De5275a608dEC222dACd0f2BF2E23AB6
       decimals: 6
+      logoURI: /deployments/warp_routes/USDCSTAGE/logo.svg
       name: USD Coin
       standard: EvmHypCollateral
       symbol: USDCSTAGE
@@ -7242,6 +7282,7 @@ USDCSTAGE/arbitrum-base-ethereum-ink-optimism-solanamainnet-superseed:
       connections:
         - token: ethereum|superseed|0xf728C884De5275a608dEC222dACd0f2BF2E23AB6
       decimals: 6
+      logoURI: /deployments/warp_routes/USDCSTAGE/logo.svg
       name: USD Coin
       standard: EvmHypCollateral
       symbol: USDCSTAGE
@@ -7251,6 +7292,7 @@ USDCSTAGE/arbitrum-base-ethereum-ink-optimism-solanamainnet-superseed:
       connections:
         - token: ethereum|superseed|0xf728C884De5275a608dEC222dACd0f2BF2E23AB6
       decimals: 6
+      logoURI: /deployments/warp_routes/USDCSTAGE/logo.svg
       name: USD Coin
       standard: EvmHypCollateral
       symbol: USDCSTAGE
@@ -7261,6 +7303,7 @@ USDCSTAGE/arbitrum-base-ethereum-ink-optimism-solanamainnet-superseed:
       connections:
         - token: ethereum|superseed|0xf728C884De5275a608dEC222dACd0f2BF2E23AB6
       decimals: 6
+      logoURI: /deployments/warp_routes/USDCSTAGE/logo.svg
       name: USD Coin
       standard: SealevelHypCollateral
       symbol: USDCSTAGE
@@ -7275,6 +7318,7 @@ USDCSTAGE/arbitrum-base-ethereum-ink-optimism-solanamainnet-superseed:
         - token: ethereum|optimism|0x2171e985D95eB12451B723b19458A7f1AdEbc086
         - token: sealevel|solanamainnet|8UUnM8wheNwAf3KM65Yx72Mq8mSAHf33GUwEp3MAyQX1
       decimals: 6
+      logoURI: /deployments/warp_routes/USDCSTAGE/logo.svg
       name: USD Coin
       standard: EvmHypCollateralFiat
       symbol: USDCSTAGE
@@ -7399,6 +7443,7 @@ USDT/arbitrum-bsc-kalychain-polygon:
         - token: ethereum|kalychain|0x2CA775C77B922A51FcF3097F52bFFdbc0250D99A
         - token: ethereum|polygon|0x2f7c83FC82A0e39A997c262e5BAB13176C275104
       decimals: 6
+      logoURI: /deployments/warp_routes/USDT/logo.svg
       name: Tether USD
       standard: EvmHypCollateral
       symbol: USDT
@@ -7410,6 +7455,7 @@ USDT/arbitrum-bsc-kalychain-polygon:
         - token: ethereum|kalychain|0x2CA775C77B922A51FcF3097F52bFFdbc0250D99A
         - token: ethereum|polygon|0x2f7c83FC82A0e39A997c262e5BAB13176C275104
       decimals: 6
+      logoURI: /deployments/warp_routes/USDT/logo.svg
       name: Tether USD
       standard: EvmHypCollateral
       symbol: USDT
@@ -7420,6 +7466,7 @@ USDT/arbitrum-bsc-kalychain-polygon:
         - token: ethereum|bsc|0xf4f62eC5C9d4e5464A9D1Dd738e3f50b1d652101
         - token: ethereum|polygon|0x2f7c83FC82A0e39A997c262e5BAB13176C275104
       decimals: 6
+      logoURI: /deployments/warp_routes/USDT/logo.svg
       name: Tether USD
       standard: EvmHypSynthetic
       symbol: USDT
@@ -7431,6 +7478,7 @@ USDT/arbitrum-bsc-kalychain-polygon:
         - token: ethereum|bsc|0xf4f62eC5C9d4e5464A9D1Dd738e3f50b1d652101
         - token: ethereum|kalychain|0x2CA775C77B922A51FcF3097F52bFFdbc0250D99A
       decimals: 6
+      logoURI: /deployments/warp_routes/USDT/logo.svg
       name: Tether USD
       standard: EvmHypCollateral
       symbol: USDT
@@ -7589,6 +7637,7 @@ USDT/basesepolia:
       connections:
         - token: ethereum|sepolia|0x152Adf802fe91e66758f8449cc0b4FDEd3387bBE
       decimals: 6
+      logoURI: /deployments/warp_routes/USDT/logo.svg
       name: USD Coin
       standard: EvmHypSynthetic
       symbol: USDC
@@ -7598,6 +7647,7 @@ USDT/basesepolia:
       connections:
         - token: ethereum|basesepolia|0xf5601981dd5230762f935A2ac3B843e9918115AB
       decimals: 6
+      logoURI: /deployments/warp_routes/USDT/logo.svg
       name: USD Coin
       standard: EvmHypCollateral
       symbol: USDC
@@ -7608,6 +7658,7 @@ USDT/basesepolia-igratest:
       connections:
         - token: ethereum|basesepolia|0x22584487D5a9F8F906548a215efCb03Ff0D726b1
       decimals: 18
+      logoURI: /deployments/warp_routes/USDT/logo.svg
       name: USDT
       standard: EvmHypSynthetic
       symbol: USDT
@@ -7617,6 +7668,7 @@ USDT/basesepolia-igratest:
       connections:
         - token: ethereum|igratestnet|0x32409439655a82A033C565ce713A800Ce50abc30
       decimals: 18
+      logoURI: /deployments/warp_routes/USDT/logo.svg
       name: USDT
       standard: EvmHypCollateral
       symbol: USDT
@@ -7959,6 +8011,7 @@ USDT/kasplex-basesepolia:
       connections:
         - token: ethereum|basesepolia|0x8C3109Fc7D247Df0AEc2e3620b38B0EB1Ce99AbD
       decimals: 18
+      logoURI: /deployments/warp_routes/USDT/logo.svg
       name: USDT
       standard: EvmHypCollateral
       symbol: USDT
@@ -7967,6 +8020,7 @@ USDT/kasplex-basesepolia:
       connections:
         - token: ethereum|kasplextestnet|0x35985666e8784b49d1377F0e5a925A5cA18F56AC
       decimals: 18
+      logoURI: /deployments/warp_routes/USDT/logo.svg
       name: USDT
       standard: EvmHypSynthetic
       symbol: USDT
@@ -7978,6 +8032,7 @@ USDT/kasplex-sepolia:
       connections:
         - token: ethereum|sepolia|0x69C3dEB37A88BCAe9f65A2e0D613bcdD2E31d13A
       decimals: 18
+      logoURI: /deployments/warp_routes/USDT/logo.svg
       name: Tether USD
       standard: EvmHypCollateral
       symbol: USDT
@@ -7986,6 +8041,7 @@ USDT/kasplex-sepolia:
       connections:
         - token: ethereum|kasplextestnet|0x261774bA5794de56eE163fd96C1900bf9484687B
       decimals: 18
+      logoURI: /deployments/warp_routes/USDT/logo.svg
       name: Tether USD
       standard: EvmHypSynthetic
       symbol: USDT
@@ -7996,6 +8052,7 @@ USDT/kasplextestnet:
       connections:
         - token: ethereum|bsctestnet|0xEe9DAAE997518C778d24C3D80B92A9CdF198b217
       decimals: 18
+      logoURI: /deployments/warp_routes/USDT/logo.svg
       name: Tether USD
       standard: EvmHypSynthetic
       symbol: USDT
@@ -8005,6 +8062,7 @@ USDT/kasplextestnet:
       connections:
         - token: ethereum|kasplextestnet|0x62a331a0582FEbb081863F6773b8510A7D71B0a6
       decimals: 18
+      logoURI: /deployments/warp_routes/USDT/logo.svg
       name: Tether USD
       standard: EvmHypCollateral
       symbol: USDT
@@ -8059,6 +8117,7 @@ USDT/sepoliatest-igratest:
       connections:
         - token: ethereum|sepolia|0xD9BdA395724b008510974253B17DE84Ea2ccFFC9
       decimals: 18
+      logoURI: /deployments/warp_routes/USDT/logo.svg
       name: USDT
       standard: EvmHypSynthetic
       symbol: USDT
@@ -8068,6 +8127,7 @@ USDT/sepoliatest-igratest:
       connections:
         - token: ethereum|igratestnet|0xaf27F006C81fdE2D876282Cd6Cb370338d73B246
       decimals: 18
+      logoURI: /deployments/warp_routes/USDT/logo.svg
       name: USDT
       standard: EvmHypCollateral
       symbol: USDT
@@ -8168,6 +8228,7 @@ WBTC/arbitrum-bsc-kalychain-polygon:
         - token: ethereum|kalychain|0xaA77D4a26d432B82DB07F8a47B7f7F623fd92455
         - token: ethereum|polygon|0xfF00e814A0dCB9a614585c212C78Fdc596d02e47
       decimals: 8
+      logoURI: /deployments/warp_routes/WBTC/logo.svg
       name: Wrapped BTC
       standard: EvmHypCollateral
       symbol: WBTC
@@ -8179,6 +8240,7 @@ WBTC/arbitrum-bsc-kalychain-polygon:
         - token: ethereum|kalychain|0xaA77D4a26d432B82DB07F8a47B7f7F623fd92455
         - token: ethereum|polygon|0xfF00e814A0dCB9a614585c212C78Fdc596d02e47
       decimals: 8
+      logoURI: /deployments/warp_routes/WBTC/logo.svg
       name: Wrapped BTC
       standard: EvmHypCollateral
       symbol: WBTC
@@ -8189,6 +8251,7 @@ WBTC/arbitrum-bsc-kalychain-polygon:
         - token: ethereum|bsc|0xD42Af909d323D88e0E933B6c50D3e91c279004ca
         - token: ethereum|polygon|0xfF00e814A0dCB9a614585c212C78Fdc596d02e47
       decimals: 8
+      logoURI: /deployments/warp_routes/WBTC/logo.svg
       name: Wrapped BTC
       standard: EvmHypSynthetic
       symbol: WBTC
@@ -8200,6 +8263,7 @@ WBTC/arbitrum-bsc-kalychain-polygon:
         - token: ethereum|bsc|0xD42Af909d323D88e0E933B6c50D3e91c279004ca
         - token: ethereum|kalychain|0xaA77D4a26d432B82DB07F8a47B7f7F623fd92455
       decimals: 8
+      logoURI: /deployments/warp_routes/WBTC/logo.svg
       name: Wrapped BTC
       standard: EvmHypCollateral
       symbol: WBTC
@@ -9462,6 +9526,7 @@ oUSDT/staging:
         - token: ethereum|worldchain|0xE047cb95FB3b7117989e911c6afb34771183fC35
         - token: ethereum|zerogravity|0x21b5a2fA1f53e94cF4871201aeD30C6ad5E405f2
       decimals: 6
+      logoURI: /deployments/warp_routes/oUSDT/logo.svg
       name: OpenUSDT
       standard: EvmHypVSXERC20
       symbol: oUSDTSTAGE
@@ -9493,6 +9558,7 @@ oUSDT/staging:
         - token: ethereum|worldchain|0xE047cb95FB3b7117989e911c6afb34771183fC35
         - token: ethereum|zerogravity|0x21b5a2fA1f53e94cF4871201aeD30C6ad5E405f2
       decimals: 6
+      logoURI: /deployments/warp_routes/oUSDT/logo.svg
       name: OpenUSDT
       standard: EvmHypVSXERC20
       symbol: oUSDTSTAGE
@@ -9524,6 +9590,7 @@ oUSDT/staging:
         - token: ethereum|worldchain|0xE047cb95FB3b7117989e911c6afb34771183fC35
         - token: ethereum|zerogravity|0x21b5a2fA1f53e94cF4871201aeD30C6ad5E405f2
       decimals: 6
+      logoURI: /deployments/warp_routes/oUSDT/logo.svg
       name: OpenUSDT
       standard: EvmHypVSXERC20
       symbol: oUSDTSTAGE
@@ -9555,6 +9622,7 @@ oUSDT/staging:
         - token: ethereum|worldchain|0xE047cb95FB3b7117989e911c6afb34771183fC35
         - token: ethereum|zerogravity|0x21b5a2fA1f53e94cF4871201aeD30C6ad5E405f2
       decimals: 6
+      logoURI: /deployments/warp_routes/oUSDT/logo.svg
       name: OpenUSDT
       standard: EvmHypVSXERC20
       symbol: oUSDTSTAGE
@@ -9587,6 +9655,7 @@ oUSDT/staging:
         - token: ethereum|worldchain|0xE047cb95FB3b7117989e911c6afb34771183fC35
         - token: ethereum|zerogravity|0x21b5a2fA1f53e94cF4871201aeD30C6ad5E405f2
       decimals: 6
+      logoURI: /deployments/warp_routes/oUSDT/logo.svg
       name: USDT
       standard: EvmHypVSXERC20Lockbox
       symbol: USD₮
@@ -9619,6 +9688,7 @@ oUSDT/staging:
         - token: ethereum|worldchain|0xE047cb95FB3b7117989e911c6afb34771183fC35
         - token: ethereum|zerogravity|0x21b5a2fA1f53e94cF4871201aeD30C6ad5E405f2
       decimals: 6
+      logoURI: /deployments/warp_routes/oUSDT/logo.svg
       name: USDT
       standard: EvmHypVSXERC20Lockbox
       symbol: USDT
@@ -9650,6 +9720,7 @@ oUSDT/staging:
         - token: ethereum|worldchain|0xE047cb95FB3b7117989e911c6afb34771183fC35
         - token: ethereum|zerogravity|0x21b5a2fA1f53e94cF4871201aeD30C6ad5E405f2
       decimals: 6
+      logoURI: /deployments/warp_routes/oUSDT/logo.svg
       name: OpenUSDT
       standard: EvmHypVSXERC20
       symbol: oUSDTSTAGE
@@ -9681,6 +9752,7 @@ oUSDT/staging:
         - token: ethereum|worldchain|0xE047cb95FB3b7117989e911c6afb34771183fC35
         - token: ethereum|zerogravity|0x21b5a2fA1f53e94cF4871201aeD30C6ad5E405f2
       decimals: 6
+      logoURI: /deployments/warp_routes/oUSDT/logo.svg
       name: OpenUSDT
       standard: EvmHypVSXERC20
       symbol: oUSDTSTAGE
@@ -9712,6 +9784,7 @@ oUSDT/staging:
         - token: ethereum|worldchain|0xE047cb95FB3b7117989e911c6afb34771183fC35
         - token: ethereum|zerogravity|0x21b5a2fA1f53e94cF4871201aeD30C6ad5E405f2
       decimals: 6
+      logoURI: /deployments/warp_routes/oUSDT/logo.svg
       name: OpenUSDT
       standard: EvmHypVSXERC20
       symbol: oUSDTSTAGE
@@ -9743,6 +9816,7 @@ oUSDT/staging:
         - token: ethereum|worldchain|0xE047cb95FB3b7117989e911c6afb34771183fC35
         - token: ethereum|zerogravity|0x21b5a2fA1f53e94cF4871201aeD30C6ad5E405f2
       decimals: 6
+      logoURI: /deployments/warp_routes/oUSDT/logo.svg
       name: OpenUSDT
       standard: EvmHypVSXERC20
       symbol: oUSDTSTAGE
@@ -9774,6 +9848,7 @@ oUSDT/staging:
         - token: ethereum|worldchain|0xE047cb95FB3b7117989e911c6afb34771183fC35
         - token: ethereum|zerogravity|0x21b5a2fA1f53e94cF4871201aeD30C6ad5E405f2
       decimals: 6
+      logoURI: /deployments/warp_routes/oUSDT/logo.svg
       name: OpenUSDT
       standard: EvmHypVSXERC20
       symbol: oUSDTSTAGE
@@ -9805,6 +9880,7 @@ oUSDT/staging:
         - token: ethereum|worldchain|0xE047cb95FB3b7117989e911c6afb34771183fC35
         - token: ethereum|zerogravity|0x21b5a2fA1f53e94cF4871201aeD30C6ad5E405f2
       decimals: 6
+      logoURI: /deployments/warp_routes/oUSDT/logo.svg
       name: OpenUSDT
       standard: EvmHypVSXERC20
       symbol: oUSDTSTAGE
@@ -9836,6 +9912,7 @@ oUSDT/staging:
         - token: ethereum|worldchain|0xE047cb95FB3b7117989e911c6afb34771183fC35
         - token: ethereum|zerogravity|0x21b5a2fA1f53e94cF4871201aeD30C6ad5E405f2
       decimals: 6
+      logoURI: /deployments/warp_routes/oUSDT/logo.svg
       name: OpenUSDT
       standard: EvmHypVSXERC20
       symbol: oUSDTSTAGE
@@ -9867,6 +9944,7 @@ oUSDT/staging:
         - token: ethereum|worldchain|0xE047cb95FB3b7117989e911c6afb34771183fC35
         - token: ethereum|zerogravity|0x21b5a2fA1f53e94cF4871201aeD30C6ad5E405f2
       decimals: 6
+      logoURI: /deployments/warp_routes/oUSDT/logo.svg
       name: OpenUSDT
       standard: EvmHypVSXERC20
       symbol: oUSDTSTAGE
@@ -9898,6 +9976,7 @@ oUSDT/staging:
         - token: ethereum|worldchain|0xE047cb95FB3b7117989e911c6afb34771183fC35
         - token: ethereum|zerogravity|0x21b5a2fA1f53e94cF4871201aeD30C6ad5E405f2
       decimals: 6
+      logoURI: /deployments/warp_routes/oUSDT/logo.svg
       name: OpenUSDT
       standard: EvmHypVSXERC20
       symbol: oUSDTSTAGE
@@ -9929,6 +10008,7 @@ oUSDT/staging:
         - token: ethereum|worldchain|0xE047cb95FB3b7117989e911c6afb34771183fC35
         - token: ethereum|zerogravity|0x21b5a2fA1f53e94cF4871201aeD30C6ad5E405f2
       decimals: 6
+      logoURI: /deployments/warp_routes/oUSDT/logo.svg
       name: OpenUSDT
       standard: EvmHypVSXERC20
       symbol: oUSDTSTAGE
@@ -9960,6 +10040,7 @@ oUSDT/staging:
         - token: ethereum|worldchain|0xE047cb95FB3b7117989e911c6afb34771183fC35
         - token: ethereum|zerogravity|0x21b5a2fA1f53e94cF4871201aeD30C6ad5E405f2
       decimals: 6
+      logoURI: /deployments/warp_routes/oUSDT/logo.svg
       name: OpenUSDT
       standard: EvmHypVSXERC20
       symbol: oUSDTSTAGE
@@ -9991,6 +10072,7 @@ oUSDT/staging:
         - token: ethereum|worldchain|0xE047cb95FB3b7117989e911c6afb34771183fC35
         - token: ethereum|zerogravity|0x21b5a2fA1f53e94cF4871201aeD30C6ad5E405f2
       decimals: 6
+      logoURI: /deployments/warp_routes/oUSDT/logo.svg
       name: OpenUSDT
       standard: EvmHypVSXERC20
       symbol: oUSDTSTAGE
@@ -10022,6 +10104,7 @@ oUSDT/staging:
         - token: ethereum|worldchain|0xE047cb95FB3b7117989e911c6afb34771183fC35
         - token: ethereum|zerogravity|0x21b5a2fA1f53e94cF4871201aeD30C6ad5E405f2
       decimals: 6
+      logoURI: /deployments/warp_routes/oUSDT/logo.svg
       name: OpenUSDT
       standard: EvmHypVSXERC20
       symbol: oUSDTSTAGE
@@ -10053,6 +10136,7 @@ oUSDT/staging:
         - token: ethereum|worldchain|0xE047cb95FB3b7117989e911c6afb34771183fC35
         - token: ethereum|zerogravity|0x21b5a2fA1f53e94cF4871201aeD30C6ad5E405f2
       decimals: 6
+      logoURI: /deployments/warp_routes/oUSDT/logo.svg
       name: OpenUSDT
       standard: EvmHypVSXERC20
       symbol: oUSDTSTAGE
@@ -10084,6 +10168,7 @@ oUSDT/staging:
         - token: ethereum|worldchain|0xE047cb95FB3b7117989e911c6afb34771183fC35
         - token: ethereum|zerogravity|0x21b5a2fA1f53e94cF4871201aeD30C6ad5E405f2
       decimals: 6
+      logoURI: /deployments/warp_routes/oUSDT/logo.svg
       name: OpenUSDT
       standard: EvmHypVSXERC20
       symbol: oUSDTSTAGE
@@ -10115,6 +10200,7 @@ oUSDT/staging:
         - token: ethereum|worldchain|0xE047cb95FB3b7117989e911c6afb34771183fC35
         - token: ethereum|zerogravity|0x21b5a2fA1f53e94cF4871201aeD30C6ad5E405f2
       decimals: 6
+      logoURI: /deployments/warp_routes/oUSDT/logo.svg
       name: OpenUSDT
       standard: EvmHypVSXERC20
       symbol: oUSDTSTAGE
@@ -10146,6 +10232,7 @@ oUSDT/staging:
         - token: ethereum|unichain|0x7189A511D4312148cC0aEf79129417f714e3155E
         - token: ethereum|zerogravity|0x21b5a2fA1f53e94cF4871201aeD30C6ad5E405f2
       decimals: 6
+      logoURI: /deployments/warp_routes/oUSDT/logo.svg
       name: OpenUSDT
       standard: EvmHypVSXERC20
       symbol: oUSDTSTAGE
@@ -10177,6 +10264,7 @@ oUSDT/staging:
         - token: ethereum|unichain|0x7189A511D4312148cC0aEf79129417f714e3155E
         - token: ethereum|worldchain|0xE047cb95FB3b7117989e911c6afb34771183fC35
       decimals: 6
+      logoURI: /deployments/warp_routes/oUSDT/logo.svg
       name: OpenUSDT
       standard: EvmHypVSXERC20
       symbol: oUSDTSTAGE

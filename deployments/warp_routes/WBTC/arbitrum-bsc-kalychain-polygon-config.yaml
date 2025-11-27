@@ -1,4 +1,3 @@
-# yaml-language-server: $schema=../schema.json
 tokens:
   - addressOrDenom: "0x3CDbaBE5Bf4E6cfE10A2A326E0ad31b2d16398D4"
     chainName: arbitrum
@@ -11,6 +10,7 @@ tokens:
     name: Wrapped BTC
     standard: EvmHypCollateral
     symbol: WBTC
+    logoURI: /deployments/warp_routes/WBTC/logo.svg
   - addressOrDenom: "0xD42Af909d323D88e0E933B6c50D3e91c279004ca"
     chainName: bsc
     collateralAddressOrDenom: "0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c"
@@ -22,6 +22,7 @@ tokens:
     name: Wrapped BTC
     standard: EvmHypCollateral
     symbol: WBTC
+    logoURI: /deployments/warp_routes/WBTC/logo.svg
   - addressOrDenom: "0xaA77D4a26d432B82DB07F8a47B7f7F623fd92455"
     chainName: kalychain
     connections:
@@ -32,6 +33,7 @@ tokens:
     name: Wrapped BTC
     standard: EvmHypSynthetic
     symbol: WBTC
+    logoURI: /deployments/warp_routes/WBTC/logo.svg
   - addressOrDenom: "0xfF00e814A0dCB9a614585c212C78Fdc596d02e47"
     chainName: polygon
     collateralAddressOrDenom: "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6"
@@ -43,3 +45,4 @@ tokens:
     name: Wrapped BTC
     standard: EvmHypCollateral
     symbol: WBTC
+    logoURI: /deployments/warp_routes/WBTC/logo.svg
