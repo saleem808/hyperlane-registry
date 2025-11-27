@@ -6,6 +6,8 @@ blockExplorers:
 chainId: 202555
 displayName: Kasplex
 domainId: 202555
+displayNameShort: Kasplex
+gasCurrencyCoinGeckoId: kaspa
 isTestnet: false
 name: kasplex
 nativeToken:
