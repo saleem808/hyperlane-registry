@@ -2,6 +2,7 @@ tokens:
   - chainName: kasplex
     standard: EvmHypSynthetic
     decimals: 18
+    logoURI: /deployments/warp_routes/USDT/logo.svg
     symbol: USDT
     name: Tether USD
     addressOrDenom: "0xBbC4a4Ab915E04a833aefa872A6d19eCac372134"
@@ -10,6 +11,7 @@ tokens:
   - chainName: bsc
     standard: EvmHypCollateral
     decimals: 18
+    logoURI: /deployments/warp_routes/USDT/logo.svg
     symbol: USDT
     name: Tether USD
     addressOrDenom: "0xbb9F2Dc93C00e818eECb4A12B661fd2c9817E301"

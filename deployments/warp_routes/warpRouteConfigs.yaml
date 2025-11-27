@@ -7627,6 +7627,7 @@ USDT/bsc-kasplex:
       connections:
         - token: ethereum|bsc|0xbb9F2Dc93C00e818eECb4A12B661fd2c9817E301
       decimals: 18
+      logoURI: /deployments/warp_routes/USDT/logo.svg
       name: Tether USD
       standard: EvmHypSynthetic
       symbol: USDT
@@ -7636,6 +7637,7 @@ USDT/bsc-kasplex:
       connections:
         - token: ethereum|kasplex|0xBbC4a4Ab915E04a833aefa872A6d19eCac372134
       decimals: 18
+      logoURI: /deployments/warp_routes/USDT/logo.svg
       name: Tether USD
       standard: EvmHypCollateral
       symbol: USDT
