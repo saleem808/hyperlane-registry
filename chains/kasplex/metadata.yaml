@@ -1,0 +1,18 @@
+blockExplorers:
+  - apiUrl: https://explorer.kasplex.org/api
+    family: blockscout
+    name: kasplex explorer
+    url: https://explorer.kasplex.org
+chainId: 202555
+displayName: Kasplex
+domainId: 202555
+isTestnet: false
+name: kasplex
+nativeToken:
+  decimals: 8
+  name: Kaspa
+  symbol: KAS
+protocol: ethereum
+rpcUrls:
+  - http: https://evmrpc.kasplex.org
+technicalStack: other
