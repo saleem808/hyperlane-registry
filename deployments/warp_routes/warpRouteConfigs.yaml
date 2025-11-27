@@ -8137,6 +8137,25 @@ VRA/bsc-ethereum:
       scale: 1
       standard: EvmHypCollateral
       symbol: VRA
+WBNB/bsc-kasplex:
+  tokens:
+    - addressOrDenom: "0x3bFdbB6bf711f992652658A4135C5207E49c47cC"
+      chainName: kasplex
+      connections:
+        - token: ethereum|bsc|0xa23F30871788bc8f6a52d3AD70c4299438CB9559
+      decimals: 18
+      name: Wrapped BNB
+      standard: EvmHypSynthetic
+      symbol: WBNB
+    - addressOrDenom: "0xa23F30871788bc8f6a52d3AD70c4299438CB9559"
+      chainName: bsc
+      collateralAddressOrDenom: "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c"
+      connections:
+        - token: ethereum|kasplex|0x3bFdbB6bf711f992652658A4135C5207E49c47cC
+      decimals: 18
+      name: Wrapped BNB
+      standard: EvmHypCollateral
+      symbol: WBNB
 WBTC/arbitrum-bsc-kalychain-polygon:
   tokens:
     - addressOrDenom: "0x3CDbaBE5Bf4E6cfE10A2A326E0ad31b2d16398D4"
