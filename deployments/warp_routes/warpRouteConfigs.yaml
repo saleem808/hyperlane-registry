@@ -10651,6 +10651,7 @@ tZEAL/bsctestnet:
       connections:
         - token: ethereum|bsctestnet|0x85c91B38bd5E3952f9B97748eeA87De8c2d3D864
       decimals: 18
+      logoURI: /deployments/warp_routes/tZEAL/logo.svg
       name: test ZEAL
       standard: EvmHypCollateral
       symbol: tZEAL
@@ -10659,6 +10660,7 @@ tZEAL/bsctestnet:
       connections:
         - token: ethereum|kasplextestnet|0xB6F08394a2f570C5a98F4D5a787ec263Ddfad2de
       decimals: 18
+      logoURI: /deployments/warp_routes/tZEAL/logo.svg
       name: test ZEAL
       standard: EvmHypSynthetic
       symbol: tZEAL
