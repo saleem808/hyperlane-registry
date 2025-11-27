@@ -11,7 +11,7 @@ gasCurrencyCoinGeckoId: kaspa
 isTestnet: false
 name: kasplex
 nativeToken:
-  decimals: 8
+  decimals: 18
   name: Kaspa
   symbol: KAS
 protocol: ethereum
