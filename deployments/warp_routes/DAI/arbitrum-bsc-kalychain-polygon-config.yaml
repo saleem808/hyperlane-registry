@@ -1,4 +1,3 @@
-# yaml-language-server: $schema=../schema.json
 tokens:
   - addressOrDenom: "0x1e59F72de6c00c456f7F42708FE8b6b0782E84C6"
     chainName: arbitrum
@@ -12,6 +11,7 @@ tokens:
     name: Dai Stablecoin
     standard: EvmHypCollateral
     symbol: DAI
+    logoURI: /deployments/warp_routes/DAI/logo.svg
   - addressOrDenom: "0x7379A18963039eA1284050b585f422e8156c9eC0"
     chainName: bsc
     coinGeckoId: dai
@@ -24,6 +24,7 @@ tokens:
     name: Dai Stablecoin
     standard: EvmHypCollateral
     symbol: DAI
+    logoURI: /deployments/warp_routes/DAI/logo.svg
   - addressOrDenom: "0x6E92CAC380F7A7B86f4163fad0df2F277B16Edc6"
     chainName: kalychain
     connections:
@@ -34,6 +35,7 @@ tokens:
     name: Dai Stablecoin
     standard: EvmHypSynthetic
     symbol: DAI
+    logoURI: /deployments/warp_routes/DAI/logo.svg
   - addressOrDenom: "0x1E71a8d870F0C491d4fCC965A59493b8B7564949"
     chainName: polygon
     coinGeckoId: dai
@@ -46,3 +48,4 @@ tokens:
     name: Dai Stablecoin
     standard: EvmHypCollateral
     symbol: DAI
+    logoURI: /deployments/warp_routes/DAI/logo.svg

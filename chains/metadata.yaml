@@ -785,8 +785,8 @@ basesepolia:
       name: BaseScan
       url: https://sepolia.basescan.org
   blocks:
-    confirmations: 1
-    estimateBlockTime: 2
+    confirmations: 5
+    estimateBlockTime: 3
     reorgPeriod: 1
   chainId: 84532
   deployer:
@@ -804,6 +804,8 @@ basesepolia:
   protocol: ethereum
   rpcUrls:
     - http: https://sepolia.base.org
+    - http: https://base-sepolia.gateway.tenderly.co
+    - http: https://base-sepolia.drpc.org
     - http: https://base-sepolia-rpc.publicnode.com
 bepolia:
   availability:
@@ -3657,6 +3659,32 @@ hyperliquidevmtestnet:
   protocol: ethereum
   rpcUrls:
     - http: https://rpc.hyperliquid-testnet.xyz/evm
+igratestnet:
+  blockExplorers:
+    - apiUrl: https://explorer.caravel.igralabs.com/api
+      family: blockscout
+      name: Igra testnet explorer
+      url: https://explorer.caravel.igralabs.com/
+  blocks:
+    confirmations: 5
+    estimateBlockTime: 3
+    reorgPeriod: 1
+  chainId: 19416
+  displayName: Igra Testnet
+  domainId: 19416
+  isTestnet: true
+  name: igratestnet
+  nativeToken:
+    decimals: 18
+    name: KASPA
+    symbol: iKAS
+  protocol: ethereum
+  rpcUrls:
+    - http: https://caravel.igralabs.com:8545
+  technicalStack: other
+  transactionOverrides:
+    maxFeePerGas: 2000000000000
+    maxPriorityFeePerGas: 2000000000000
 immutablezkevmmainnet:
   blockExplorers:
     - apiUrl: https://explorer.immutable.com/api
@@ -4026,6 +4054,46 @@ kalychain:
   protocol: ethereum
   rpcUrls:
     - http: https://rpc.kalychain.io/rpc
+kasplex:
+  blockExplorers:
+    - apiUrl: https://explorer.kasplex.org/api
+      family: blockscout
+      name: kasplex explorer
+      url: https://explorer.kasplex.org
+  chainId: 202555
+  displayName: Kasplex
+  displayNameShort: Kasplex
+  domainId: 202555
+  gasCurrencyCoinGeckoId: kaspa
+  isTestnet: false
+  name: kasplex
+  nativeToken:
+    decimals: 18
+    name: Kaspa
+    symbol: KAS
+  protocol: ethereum
+  rpcUrls:
+    - http: https://evmrpc.kasplex.org
+  technicalStack: other
+kasplextestnet:
+  blockExplorers:
+    - apiUrl: https://explorer.testnet.kasplextest.xyz/api
+      family: blockscout
+      name: Kasplex Testnet Explorer
+      url: https://explorer.testnet.kasplextest.xyz/
+  chainId: 167012
+  displayName: Kasplex Testnet
+  domainId: 167012
+  isTestnet: true
+  name: kasplextestnet
+  nativeToken:
+    decimals: 18
+    name: Kaspa
+    symbol: KAS
+  protocol: ethereum
+  rpcUrls:
+    - http: https://rpc.kasplextest.xyz
+  technicalStack: other
 katana:
   blockExplorers:
     - apiUrl: https://explorer.katanarpc.com/api

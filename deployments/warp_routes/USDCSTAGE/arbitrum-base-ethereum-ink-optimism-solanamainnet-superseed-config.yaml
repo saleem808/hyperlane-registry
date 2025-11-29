@@ -1,4 +1,3 @@
-# yaml-language-server: $schema=../schema.json
 tokens:
   - addressOrDenom: "0xD74706A5Be0cb87357EF80b4fAEa709287D4f640"
     chainName: arbitrum
@@ -9,6 +8,7 @@ tokens:
     name: USD Coin
     standard: EvmHypCollateral
     symbol: USDCSTAGE
+    logoURI: /deployments/warp_routes/USDCSTAGE/logo.svg
   - addressOrDenom: "0x23eE98fD566eBae12296d1B111064921143AD6a7"
     chainName: base
     collateralAddressOrDenom: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913"
@@ -18,6 +18,7 @@ tokens:
     name: USD Coin
     standard: EvmHypCollateral
     symbol: USDCSTAGE
+    logoURI: /deployments/warp_routes/USDCSTAGE/logo.svg
   - addressOrDenom: "0x1d82BC329E5E6CA5CBc41571435824dda7895e92"
     chainName: ethereum
     collateralAddressOrDenom: "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
@@ -27,6 +28,7 @@ tokens:
     name: USD Coin
     standard: EvmHypCollateral
     symbol: USDCSTAGE
+    logoURI: /deployments/warp_routes/USDCSTAGE/logo.svg
   - addressOrDenom: "0x5D71b91B92AAE933cbf85065F49bC14f16c55c55"
     chainName: ink
     collateralAddressOrDenom: "0xF1815bd50389c46847f0Bda824eC8da914045D14"
@@ -36,6 +38,7 @@ tokens:
     name: USD Coin
     standard: EvmHypCollateral
     symbol: USDCSTAGE
+    logoURI: /deployments/warp_routes/USDCSTAGE/logo.svg
   - addressOrDenom: "0x2171e985D95eB12451B723b19458A7f1AdEbc086"
     chainName: optimism
     collateralAddressOrDenom: "0x0b2C639c533813f4Aa9D7837CAf62653d097Ff85"
@@ -45,6 +48,7 @@ tokens:
     name: USD Coin
     standard: EvmHypCollateral
     symbol: USDCSTAGE
+    logoURI: /deployments/warp_routes/USDCSTAGE/logo.svg
   - addressOrDenom: 8UUnM8wheNwAf3KM65Yx72Mq8mSAHf33GUwEp3MAyQX1
     chainName: solanamainnet
     coinGeckoId: usd-coin
@@ -55,6 +59,7 @@ tokens:
     name: USD Coin
     standard: SealevelHypCollateral
     symbol: USDCSTAGE
+    logoURI: /deployments/warp_routes/USDCSTAGE/logo.svg
   - addressOrDenom: "0xf728C884De5275a608dEC222dACd0f2BF2E23AB6"
     chainName: superseed
     collateralAddressOrDenom: "0x99a38322cAF878Ef55AE4d0Eda535535eF8C7960"
@@ -69,3 +74,4 @@ tokens:
     name: USD Coin
     standard: EvmHypCollateralFiat
     symbol: USDCSTAGE
+    logoURI: /deployments/warp_routes/USDCSTAGE/logo.svg

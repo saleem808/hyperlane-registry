@@ -1,4 +1,3 @@
-# yaml-language-server: $schema=../schema.json
 tokens:
   - addressOrDenom: "0x7542c62565f48520A34Cf79884656efDEdD38176"
     chainName: arbitrum
@@ -10,6 +9,7 @@ tokens:
     name: KalyCoin
     standard: EvmHypSynthetic
     symbol: KLC
+    logoURI: /deployments/warp_routes/KLC/logo.svg
   - addressOrDenom: "0x02CF1778c07584D92b610E0C03fA285DfD00c354"
     chainName: bsc
     connections:
@@ -20,6 +20,7 @@ tokens:
     name: KalyCoin
     standard: EvmHypSynthetic
     symbol: KLC
+    logoURI: /deployments/warp_routes/KLC/logo.svg
   - addressOrDenom: "0x8A1ABbB167b149F2493C8141091028fD812Da6E4"
     chainName: kalychain
     coinGeckoId: kalycoin
@@ -31,6 +32,7 @@ tokens:
     name: KalyCoin
     standard: EvmHypNative
     symbol: KLC
+    logoURI: /deployments/warp_routes/KLC/logo.svg
   - addressOrDenom: "0x285C14145EB75A1918B48f93E126139ea1a0f294"
     chainName: polygon
     connections:
@@ -41,3 +43,4 @@ tokens:
     name: KalyCoin
     standard: EvmHypSynthetic
     symbol: KLC
+    logoURI: /deployments/warp_routes/KLC/logo.svg

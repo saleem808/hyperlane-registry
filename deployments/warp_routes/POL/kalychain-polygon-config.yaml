@@ -1,4 +1,3 @@
-# yaml-language-server: $schema=../schema.json
 tokens:
   - addressOrDenom: "0x706C9a63d7c8b7Aaf85DDCca52654645f470E8Ac"
     chainName: kalychain
@@ -8,6 +7,7 @@ tokens:
     name: Polygon Ecosystem Token
     standard: EvmHypSynthetic
     symbol: POL
+    logoURI: /deployments/warp_routes/POL/logo.svg
   - addressOrDenom: "0x0a6364152EA7a487C697a36Eb2522f48bC62fB4c"
     chainName: polygon
     connections:
@@ -16,3 +16,4 @@ tokens:
     name: Polygon Ecosystem Token
     standard: EvmHypNative
     symbol: POL
+    logoURI: /deployments/warp_routes/POL/logo.svg
