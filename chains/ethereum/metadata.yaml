@@ -32,8 +32,8 @@ nativeToken:
   symbol: ETH
 protocol: ethereum
 rpcUrls:
+  - http: https://ethereum-rpc.publicnode.com
   - http: https://eth.llamarpc.com
-  - http: https://ethereum.publicnode.com
   - http: https://eth.drpc.org
   - http: https://rpc.flashbots.net
   - http: https://eth.blockrazor.xyz
