@@ -5923,7 +5923,7 @@ USDC/base-optimism:
       name: USD Coin
       standard: EvmHypSynthetic
       symbol: USDC
-USDC/bsc-kasplex:
+USDC/bsc-base-kasplex:
   tokens:
     - addressOrDenom: "0x001cfbd182c74107B70bfcbbCD709E1d73cde0f2"
       chainName: kasplex

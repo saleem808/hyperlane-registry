@@ -14,6 +14,24 @@ bsc:
   proxyAdmin:
     owner: "0xaE44946077D5C32FFBDcCF97ddDdA689904caAAa"
     address: "0x538bb61FF85981C43d2B22b40D6B013f0E0D92Fb"
+
+base:
+  type: collateral
+  token: "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913"
+  owner: "0xae44946077d5c32ffbdccf97dddda689904caaaa"
+  interchainSecurityModule:
+    type: staticAggregationIsm
+    modules:
+      - type: trustedRelayerIsm
+        relayer: "0xae44946077d5c32ffbdccf97dddda689904caaaa"
+      - owner: "0xae44946077d5c32ffbdccf97dddda689904caaaa"
+        type: defaultFallbackRoutingIsm
+        domains: {}
+    threshold: 1
+  proxyAdmin:
+    owner: "0xaE44946077D5C32FFBDcCF97ddDdA689904caAAa"
+    address: "0x538bb61FF85981C43d2B22b40D6B013f0E0D92Fb"
+
 kasplex:
   isNft: false
   type: synthetic
