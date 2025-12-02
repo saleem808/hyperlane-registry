@@ -5902,6 +5902,25 @@ USDC/artela-base:
       name: USD Coin
       standard: EvmHypCollateral
       symbol: USDC
+USDC/base-kasplex:
+  tokens:
+    - addressOrDenom: "0x64592C9a33453b4E91657C2c8b253B86CD26EC90"
+      chainName: kasplex
+      connections:
+        - token: ethereum|base|0x001cfbd182c74107B70bfcbbCD709E1d73cde0f2
+      decimals: 6
+      name: USD Coin
+      standard: EvmHypSynthetic
+      symbol: USDC
+    - addressOrDenom: "0x001cfbd182c74107B70bfcbbCD709E1d73cde0f2"
+      chainName: base
+      collateralAddressOrDenom: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913"
+      connections:
+        - token: ethereum|kasplex|0x64592C9a33453b4E91657C2c8b253B86CD26EC90
+      decimals: 6
+      name: USD Coin
+      standard: EvmHypCollateral
+      symbol: USDC
 USDC/base-optimism:
   tokens:
     - addressOrDenom: "0x524410b1e64f689eeBa15E7E511110438811B3dC"
