@@ -1,10 +1,10 @@
 bsc:
   decimals: 18
-  name: Tether USD
+  name: USD Coin
   type: collateral
-  token: "0x55d398326f99059fF775485246999027B3197955"
+  token: "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d"
   owner: "0xae44946077d5c32ffbdccf97dddda689904caaaa"
-  symbol: USDT
+  symbol: USDC
   interchainSecurityModule:
     type: staticAggregationIsm
     modules:
@@ -19,11 +19,31 @@ bsc:
     address: "0x538bb61FF85981C43d2B22b40D6B013f0E0D92Fb"
 kasplex:
   decimals: 18
-  name: Tether USD
+  name: USD Coin
   isNft: false
   type: synthetic
   owner: "0xae44946077d5c32ffbdccf97dddda689904caaaa"
-  symbol: USDT
+  symbol: USDC
+  interchainSecurityModule:
+    type: staticAggregationIsm
+    modules:
+      - type: trustedRelayerIsm
+        relayer: "0xae44946077d5c32ffbdccf97dddda689904caaaa"
+      - owner: "0xae44946077d5c32ffbdccf97dddda689904caaaa"
+        type: defaultFallbackRoutingIsm
+        domains: {}
+    threshold: 1
+  proxyAdmin:
+    owner: "0xaE44946077D5C32FFBDcCF97ddDdA689904caAAa"
+    address: "0x2459De09233427aA7F969ae730718a3912C0DBa5"
+base:
+  decimals: 6
+  name: USD Coin
+  type: collateral
+  token: "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913"
+  owner: "0xae44946077d5c32ffbdccf97dddda689904caaaa"
+  scale: 1000000000000
+  symbol: USDC
   interchainSecurityModule:
     type: staticAggregationIsm
     modules:
@@ -38,12 +58,12 @@ kasplex:
     address: "0x2459De09233427aA7F969ae730718a3912C0DBa5"
 ethereum:
   decimals: 6
-  name: Tether USD
+  name: USD Coin
   type: collateral
-  token: "0xdAC17F958D2ee523a2206206994597C13D831ec7"
+  token: "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
   owner: "0xae44946077d5c32ffbdccf97dddda689904caaaa"
   scale: 1000000000000
-  symbol: USDT
+  symbol: USDC
   interchainSecurityModule:
     type: staticAggregationIsm
     modules:
