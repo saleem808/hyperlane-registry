@@ -23,24 +23,11 @@ tokens:
     standard: EvmHypCollateral
     symbol: USDC
     logoURI: /deployments/warp_routes/USDC/logo.svg
-  - addressOrDenom: "0xa6826c7Dd74c4e1B400AEF4a362692f99872F5F5"
-    chainName: ethereum
-    coinGeckoId: usd-coin
-    collateralAddressOrDenom: "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
-    connections:
-      - token: ethereum|lisk|0x0FC41a92F526A8CD22060A4052e156502D6B9db0
-      - token: ethereum|zeronetwork|0xbb967d98313EDF91751651C0E66ef8A8B7BeD9e1
-    decimals: 6
-    name: USD Coin
-    standard: EvmHypCollateral
-    symbol: USDC
-    logoURI: /deployments/warp_routes/USDC/logo.svg
   - addressOrDenom: "0x0FC41a92F526A8CD22060A4052e156502D6B9db0"
     chainName: lisk
     connections:
       - token: ethereum|arbitrum|0x14adE09354a20ed23E690afc803E64E60a84e7D3
       - token: ethereum|base|0x103C9CF52bBF6A6815a6c7e07C5Fb376De016C7D
-      - token: ethereum|ethereum|0xa6826c7Dd74c4e1B400AEF4a362692f99872F5F5
       - token: ethereum|optimism|0xcA11d580faaE3E6993aA230f437079ac21f3078a
       - token: ethereum|polygon|0xb805ee88eE76EcE03ba503A2634344804a0Ea59A
       - token: ethereum|zeronetwork|0xbb967d98313EDF91751651C0E66ef8A8B7BeD9e1
@@ -80,7 +67,6 @@ tokens:
     connections:
       - token: ethereum|arbitrum|0x14adE09354a20ed23E690afc803E64E60a84e7D3
       - token: ethereum|base|0x103C9CF52bBF6A6815a6c7e07C5Fb376De016C7D
-      - token: ethereum|ethereum|0xa6826c7Dd74c4e1B400AEF4a362692f99872F5F5
       - token: ethereum|lisk|0x0FC41a92F526A8CD22060A4052e156502D6B9db0
       - token: ethereum|optimism|0xcA11d580faaE3E6993aA230f437079ac21f3078a
       - token: ethereum|polygon|0xb805ee88eE76EcE03ba503A2634344804a0Ea59A
