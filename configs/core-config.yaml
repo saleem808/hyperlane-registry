@@ -15,12 +15,17 @@ requiredHook:
       type: protocolFee
     - beneficiary: "0xeDBdD8d6612d55cFCF746188744bfB3356567f4f"
       oracleConfig:
+        bsc:
+          gasPrice: "100000000"
+          tokenDecimals: 18
+          tokenExchangeRate: "3121929187"
         kasplex:
           gasPrice: "2001000000000"
           tokenDecimals: 18
-          tokenExchangeRate: "528069"
+          tokenExchangeRate: "149387"
       oracleKey: "0xeDBdD8d6612d55cFCF746188744bfB3356567f4f"
       overhead:
+        bsc: 75000
         kasplex: 75000
       owner: "0xeDBdD8d6612d55cFCF746188744bfB3356567f4f"
       type: interchainGasPaymaster
