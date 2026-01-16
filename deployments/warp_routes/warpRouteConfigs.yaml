@@ -8248,19 +8248,17 @@ WBNB/bsc-kasplex:
     - addressOrDenom: "0x3bFdbB6bf711f992652658A4135C5207E49c47cC"
       chainName: kasplex
       connections:
-        - token: ethereum|bsc|0xa23F30871788bc8f6a52d3AD70c4299438CB9559
+        - token: ethereum|bsc|0xE6215c327b575Cf6b5Bd4EC46F78bBfE1275Ba28
       decimals: 18
-      logoURI: /deployments/warp_routes/WBNB/logo.svg
       name: Wrapped BNB
       standard: EvmHypSynthetic
       symbol: WBNB
-    - addressOrDenom: "0xa23F30871788bc8f6a52d3AD70c4299438CB9559"
+    - addressOrDenom: "0xE6215c327b575Cf6b5Bd4EC46F78bBfE1275Ba28"
       chainName: bsc
       collateralAddressOrDenom: "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c"
       connections:
         - token: ethereum|kasplex|0x3bFdbB6bf711f992652658A4135C5207E49c47cC
       decimals: 18
-      logoURI: /deployments/warp_routes/WBNB/logo.svg
       name: Wrapped BNB
       standard: EvmHypCollateral
       symbol: WBNB
