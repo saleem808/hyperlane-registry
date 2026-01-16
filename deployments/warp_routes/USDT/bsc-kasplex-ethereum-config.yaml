@@ -4,12 +4,11 @@ tokens:
     decimals: 18
     symbol: USDT
     name: Tether USD
-    addressOrDenom: "0xbb9F2Dc93C00e818eECb4A12B661fd2c9817E301"
+    addressOrDenom: "0x040FaF4313560d31AaE8d5c0bdEB04bE5776A5DD"
     collateralAddressOrDenom: "0x55d398326f99059fF775485246999027B3197955"
     connections:
       - token: ethereum|kasplex|0xBbC4a4Ab915E04a833aefa872A6d19eCac372134
-      - token: ethereum|ethereum|0x63692627A88068D50Ba5bbb0225C16ebD007fEcD
-    logoURI: /deployments/warp_routes/USDT/logo.svg
+      - token: ethereum|ethereum|0x5761196348e219D4e5337B96CcD41e20a77A5256
   - chainName: kasplex
     standard: EvmHypSynthetic
     decimals: 18
@@ -17,17 +16,15 @@ tokens:
     name: Tether USD
     addressOrDenom: "0xBbC4a4Ab915E04a833aefa872A6d19eCac372134"
     connections:
-      - token: ethereum|bsc|0xbb9F2Dc93C00e818eECb4A12B661fd2c9817E301
-      - token: ethereum|ethereum|0x63692627A88068D50Ba5bbb0225C16ebD007fEcD
-    logoURI: /deployments/warp_routes/USDT/logo.svg
+      - token: ethereum|bsc|0x040FaF4313560d31AaE8d5c0bdEB04bE5776A5DD
+      - token: ethereum|ethereum|0x5761196348e219D4e5337B96CcD41e20a77A5256
   - chainName: ethereum
     standard: EvmHypCollateral
     decimals: 6
     symbol: USDT
     name: Tether USD
-    addressOrDenom: "0x63692627A88068D50Ba5bbb0225C16ebD007fEcD"
+    addressOrDenom: "0x5761196348e219D4e5337B96CcD41e20a77A5256"
     collateralAddressOrDenom: "0xdAC17F958D2ee523a2206206994597C13D831ec7"
     connections:
-      - token: ethereum|bsc|0xbb9F2Dc93C00e818eECb4A12B661fd2c9817E301
       - token: ethereum|kasplex|0xBbC4a4Ab915E04a833aefa872A6d19eCac372134
-    logoURI: /deployments/warp_routes/USDT/logo.svg
+      - token: ethereum|bsc|0x040FaF4313560d31AaE8d5c0bdEB04bE5776A5DD
