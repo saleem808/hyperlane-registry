@@ -36,26 +36,26 @@ kasplex:
   proxyAdmin:
     owner: "0xeDBdD8d6612d55cFCF746188744bfB3356567f4f"
     address: "0x2459De09233427aA7F969ae730718a3912C0DBa5"
-# base:
-#   decimals: 6
-#   name: USD Coin
-#   type: collateral
-#   token: "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913"
-#   owner: "0xeDBdD8d6612d55cFCF746188744bfB3356567f4f"
-#   scale: 1000000000000
-#   symbol: USDC
-#   interchainSecurityModule:
-#     type: staticAggregationIsm
-#     modules:
-#       - type: trustedRelayerIsm
-#         relayer: "0xeDBdD8d6612d55cFCF746188744bfB3356567f4f"
-#       - owner: "0xeDBdD8d6612d55cFCF746188744bfB3356567f4f"
-#         type: defaultFallbackRoutingIsm
-#         domains: {}
-#     threshold: 1
-#   proxyAdmin:
-#     owner: "0xeDBdD8d6612d55cFCF746188744bfB3356567f4f"
-#     address: "0x2459De09233427aA7F969ae730718a3912C0DBa5"
+base:
+  decimals: 6
+  name: USD Coin
+  type: collateral
+  token: "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913"
+  owner: "0xeDBdD8d6612d55cFCF746188744bfB3356567f4f"
+  scale: 1000000000000
+  symbol: USDC
+  interchainSecurityModule:
+    type: staticAggregationIsm
+    modules:
+      - type: trustedRelayerIsm
+        relayer: "0xeDBdD8d6612d55cFCF746188744bfB3356567f4f"
+      - owner: "0xeDBdD8d6612d55cFCF746188744bfB3356567f4f"
+        type: defaultFallbackRoutingIsm
+        domains: {}
+    threshold: 1
+  proxyAdmin:
+    owner: "0xeDBdD8d6612d55cFCF746188744bfB3356567f4f"
+    address: "0x2459De09233427aA7F969ae730718a3912C0DBa5"
 ethereum:
   decimals: 6
   name: USD Coin
