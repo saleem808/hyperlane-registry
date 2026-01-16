@@ -7701,7 +7701,7 @@ USDT/basesepolia-igratest:
       name: USDT
       standard: EvmHypCollateral
       symbol: USDT
-USDT/bsc-kasplex:
+USDT/bsc-kasplex-ethereum:
   tokens:
     - addressOrDenom: "0xbb9F2Dc93C00e818eECb4A12B661fd2c9817E301"
       chainName: bsc
