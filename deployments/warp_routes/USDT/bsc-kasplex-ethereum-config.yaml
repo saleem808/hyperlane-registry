@@ -9,6 +9,8 @@ tokens:
     connections:
       - token: ethereum|kasplex|0xBbC4a4Ab915E04a833aefa872A6d19eCac372134
       - token: ethereum|ethereum|0x5761196348e219D4e5337B96CcD41e20a77A5256
+    logoURI: /deployments/warp_routes/USDT/logo.svg
+
   - chainName: kasplex
     standard: EvmHypSynthetic
     decimals: 18
@@ -18,6 +20,7 @@ tokens:
     connections:
       - token: ethereum|bsc|0x040FaF4313560d31AaE8d5c0bdEB04bE5776A5DD
       - token: ethereum|ethereum|0x5761196348e219D4e5337B96CcD41e20a77A5256
+    logoURI: /deployments/warp_routes/USDT/logo.svg
   - chainName: ethereum
     standard: EvmHypCollateral
     decimals: 6
@@ -28,3 +31,4 @@ tokens:
     connections:
       - token: ethereum|kasplex|0xBbC4a4Ab915E04a833aefa872A6d19eCac372134
       - token: ethereum|bsc|0x040FaF4313560d31AaE8d5c0bdEB04bE5776A5DD
+    logoURI: /deployments/warp_routes/USDT/logo.svg

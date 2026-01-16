@@ -5932,6 +5932,7 @@ USDC/bsc-kasplex-base-ethereum:
         - token: ethereum|ethereum|0x5fE2e55788D94603E209296100330EAE962A3e2B
         - token: ethereum|base|0x7D3A287d1DA851B8479c8c0dEDeeBA6E73BD68CE
       decimals: 18
+      logoURI: /deployments/warp_routes/USDC/logo.svg
       name: USD Coin
       standard: EvmHypSynthetic
       symbol: USDC
@@ -5943,6 +5944,7 @@ USDC/bsc-kasplex-base-ethereum:
         - token: ethereum|ethereum|0x5fE2e55788D94603E209296100330EAE962A3e2B
         - token: ethereum|base|0x7D3A287d1DA851B8479c8c0dEDeeBA6E73BD68CE
       decimals: 18
+      logoURI: /deployments/warp_routes/USDC/logo.svg
       name: USD Coin
       standard: EvmHypCollateral
       symbol: USDC
@@ -5954,6 +5956,7 @@ USDC/bsc-kasplex-base-ethereum:
         - token: ethereum|bsc|0x9De0971d9E327509ae78142a0d1850d8560AC946
         - token: ethereum|base|0x7D3A287d1DA851B8479c8c0dEDeeBA6E73BD68CE
       decimals: 6
+      logoURI: /deployments/warp_routes/USDC/logo.svg
       name: USD Coin
       standard: EvmHypCollateral
       symbol: USDC
@@ -7710,6 +7713,7 @@ USDT/bsc-kasplex-ethereum:
         - token: ethereum|kasplex|0xBbC4a4Ab915E04a833aefa872A6d19eCac372134
         - token: ethereum|ethereum|0x5761196348e219D4e5337B96CcD41e20a77A5256
       decimals: 18
+      logoURI: /deployments/warp_routes/USDT/logo.svg
       name: Tether USD
       standard: EvmHypCollateral
       symbol: USDT
@@ -7719,6 +7723,7 @@ USDT/bsc-kasplex-ethereum:
         - token: ethereum|bsc|0x040FaF4313560d31AaE8d5c0bdEB04bE5776A5DD
         - token: ethereum|ethereum|0x5761196348e219D4e5337B96CcD41e20a77A5256
       decimals: 18
+      logoURI: /deployments/warp_routes/USDT/logo.svg
       name: Tether USD
       standard: EvmHypSynthetic
       symbol: USDT
@@ -7729,6 +7734,7 @@ USDT/bsc-kasplex-ethereum:
         - token: ethereum|kasplex|0xBbC4a4Ab915E04a833aefa872A6d19eCac372134
         - token: ethereum|bsc|0x040FaF4313560d31AaE8d5c0bdEB04bE5776A5DD
       decimals: 6
+      logoURI: /deployments/warp_routes/USDT/logo.svg
       name: Tether USD
       standard: EvmHypCollateral
       symbol: USDT
@@ -8244,6 +8250,7 @@ WBNB/bsc-kasplex:
       connections:
         - token: ethereum|bsc|0xE6215c327b575Cf6b5Bd4EC46F78bBfE1275Ba28
       decimals: 18
+      logoURI: /deployments/warp_routes/WBNB/logo.svg
       name: Wrapped BNB
       standard: EvmHypSynthetic
       symbol: WBNB
@@ -8253,6 +8260,7 @@ WBNB/bsc-kasplex:
       connections:
         - token: ethereum|kasplex|0x3bFdbB6bf711f992652658A4135C5207E49c47cC
       decimals: 18
+      logoURI: /deployments/warp_routes/WBNB/logo.svg
       name: Wrapped BNB
       standard: EvmHypCollateral
       symbol: WBNB
