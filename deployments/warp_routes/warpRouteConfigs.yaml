@@ -1200,6 +1200,25 @@ ETH/arbitrum-bsc-kalychain-polygon:
       name: Ether
       standard: EvmHypCollateral
       symbol: ETH
+ETH/bsc-kasplex:
+  tokens:
+    - addressOrDenom: "0xFe85e2621944a77Da14aD3Fe4414899aE56AC81F"
+      chainName: kasplex
+      connections:
+        - token: ethereum|bsc|0xCC035B40FA8dE4fC66Cbf3616d83A2a81FAe9634
+      decimals: 18
+      name: Ethereum Token
+      standard: EvmHypSynthetic
+      symbol: ETH
+    - addressOrDenom: "0xCC035B40FA8dE4fC66Cbf3616d83A2a81FAe9634"
+      chainName: bsc
+      collateralAddressOrDenom: "0x2170Ed0880ac9A755fd29B2688956BD959F933F8"
+      connections:
+        - token: ethereum|kasplex|0xFe85e2621944a77Da14aD3Fe4414899aE56AC81F
+      decimals: 18
+      name: Ethereum Token
+      standard: EvmHypCollateral
+      symbol: ETH
 ETH/coti-ethereum:
   tokens:
     - addressOrDenom: "0x639aCc80569c5FC83c6FBf2319A6Cc38bBfe26d1"
