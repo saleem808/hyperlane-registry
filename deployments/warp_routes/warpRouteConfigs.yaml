@@ -1207,6 +1207,7 @@ ETH/bsc-kasplex:
       connections:
         - token: ethereum|bsc|0xCC035B40FA8dE4fC66Cbf3616d83A2a81FAe9634
       decimals: 18
+      logoURI: /deployments/warp_routes/ETH/logo.svg
       name: Ethereum Token
       standard: EvmHypSynthetic
       symbol: ETH
@@ -1216,6 +1217,7 @@ ETH/bsc-kasplex:
       connections:
         - token: ethereum|kasplex|0xFe85e2621944a77Da14aD3Fe4414899aE56AC81F
       decimals: 18
+      logoURI: /deployments/warp_routes/ETH/logo.svg
       name: Ethereum Token
       standard: EvmHypCollateral
       symbol: ETH
